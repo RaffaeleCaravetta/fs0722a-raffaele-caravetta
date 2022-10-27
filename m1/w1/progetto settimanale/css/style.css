@@ -1,0 +1,184 @@
+/* Your styles here */
+.body{
+    color:#393d41 ;
+    font-size: 1.2rem ;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.65 ;
+}
+
+.logo{
+    background-color: black;
+    text-align: center;
+}
+.logoimg {
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+
+.bannerjpg {
+    background-image: url(../banner.jpg);
+    background-size:120% 100%;
+    margin-left: -25%;
+    
+}
+
+.innerbanner {
+    
+    text-align: center;
+    margin-left:30%;
+    margin-right:9%;
+    font-size:3rem;
+   
+}
+.divh1{
+    padding-top:11%;
+    margin-left:32% ;
+    margin-right:20% ;
+    text-decoration: bold;
+}
+.divp {
+font-size: 2.5rem;
+font-family: 'Open Sans', sans-serif;
+}
+
+.h1 {
+ font-size: 4rem;
+ font-weight: 700;
+ line-height: normal;
+}
+
+.headings {
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    
+}
+
+.a{
+padding-bottom:7%;
+padding-top:7%;
+}
+ 
+
+.buttonpartiamo {
+    background-color: #F04C2F; 
+    border-radius: 5%;
+    border: none;
+    color:white;
+    font:bold;
+    font-size:1.5rem;
+    text-decoration: none;
+    padding: 2.5% 10% 2.5% 10%;   
+    transition: 0.8s;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.buttonpartiamo:hover {
+    background-color:white;
+    color: #F04C2F;
+    border-radius: 5%;
+    border: none;
+    font:bold;
+    font-size:1.5rem;
+    text-decoration: none;
+    padding: 2.5% 10% 2.5% 10%;  
+}
+ 
+.quattroh3{
+text-align: center;
+background-color: white;
+font-size: 3rem;
+margin-top:10%;
+margin-bottom:10%;
+}
+
+.h3{
+    padding:5%;
+    font-weight: 700;
+}
+
+
+.notebook1 {
+    margin:10%;
+}
+
+.notebook {
+    background-image: url(../notebook.jpg);
+    object-fit: cover;
+    border-radius: 50%;
+    height: 85%;
+    width: 85%;
+    display: block;
+    margin:auto;
+}
+
+.divrosso {
+background-color: red;
+padding: 10% 0% 10% 0%;
+}
+
+.dentrorosso {
+text-align: center;
+color:white;
+font-size: 3rem;
+line-height: 2;
+}
+
+#acca1 {
+    color: white;
+}
+
+#italic {
+    font-style: italic;
+    padding:8%;
+}
+
+.divgigante {
+    background-color: white;
+    margin-bottom: 15%;
+}
+
+.foto {
+   margin:0% 5% 0% 5%;
+   border: solid #dee1e3;
+   margin-top:10%;
+   border-radius: 2%;
+}
+.fotouno {
+    background-image: url(../foto1.jpg);
+    background-size: cover;
+    object-fit: cover;
+    display: block;
+    height: 100%;
+    width: 100%;
+    margin-left:5p%;
+    margin-right: 5%;
+}
+
+.footer {
+    background-color: #25a2c3;
+    color:white;
+    text-align: center;
+}
+
+.footerino {
+    padding:auto;
+    font-size: 3rem;
+    color:white;
+    text-align: center;
+    margin:auto;
+    
+}
+#accauno {
+    color:white;
+    padding:10%;
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.lastbutnotleast {
+    margin-bottom: 10%;
+}
