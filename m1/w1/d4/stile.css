@@ -1,0 +1,45 @@
+.background {
+    font-family: Poppins, 'Helvetica Neue', sans-serif;
+    background-image: url(sfondo.png);
+    background-size: cover;
+}
+* {box-sizing: border-box;}
+hr {display: none;}
+
+.header {
+    background-color: rgb(14, 83, 83);
+    color: white;
+    text-align: center;
+    margin:1%;
+    border-radius: 3%;
+    box-shadow: 0 5px 5px 5px gray;
+}
+
+.main {
+    background-color: white;
+    color: black;
+    margin:1%;
+    border-radius: 3%;
+    box-shadow: 0 5px 5px 5px gray;
+    font-family: Poppins, 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+.transparent{
+opacity: 0.5 ;
+}
+
+#bold {
+    color:rgb(146, 15, 146);
+}
+
+#secondodiv {
+
+
+}
+
+#secondodiv ul {
+    margin-left: 40%;
+    text-align: none;
+    padding-left: -40px;
+}
