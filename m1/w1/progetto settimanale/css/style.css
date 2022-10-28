@@ -4,8 +4,9 @@
     font-size: 1.2rem ;
     font-family: 'Open Sans', sans-serif;
     line-height: 1.65 ;
-}
-
+    align-items: center;
+    justify-content: center;
+}    
 .logo{
     background-color: black;
     text-align: center;
@@ -25,14 +26,14 @@
 .innerbanner {
     
     text-align: center;
-    margin-left:30%;
+    margin-left:28%;
     margin-right:9%;
     font-size:3rem;
    
 }
 .divh1{
     padding-top:11%;
-    margin-left:32% ;
+    margin-left:31% ;
     margin-right:20% ;
     text-decoration: bold;
 }
@@ -146,6 +147,8 @@ line-height: 2;
    margin-top:10%;
    border-radius: 2%;
 }
+
+
 .fotouno {
     background-image: url(../foto1.jpg);
     background-size: cover;
@@ -153,20 +156,21 @@ line-height: 2;
     display: block;
     height: 100%;
     width: 100%;
-    margin-left:5p%;
+    margin-left:5%;
     margin-right: 5%;
 }
 
 .footer {
     background-color: #25a2c3;
-    color:white;
+    color:#c8e7f0;
     text-align: center;
+    
 }
 
 .footerino {
     padding:auto;
     font-size: 3rem;
-    color:white;
+    color:#c8e7f0;
     text-align: center;
     margin:auto;
     
