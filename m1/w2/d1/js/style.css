@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #34495e;
+}
+
+.box {
+    width:30%;
+    padding: 3%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background: #191919;
+    text-align: center;
+}
+
+.box1 {
+    width:30%;
+    padding: 3%;
+    position:absolute;
+    top:70%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background: #191919;
+    text-align: center;
+}
+
+.box h1{
+    color:white;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+.box input[type="text"] , .box input[type="password"] {
+    border:0;
+    background: none;
+    display: block;
+    margin: 1% auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding:3% 2%;
+    width: 25%;
+    outline: none;
+    color: white;
+    border-radius: 3%;
+    transition: 0.3s;
+}
+
+.submit{
+    border:0;
+    background: none;
+    display: block;
+    margin: 1% auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding:3% 2%;
+    width: 25%;
+    outline: none;
+    color: white;
+    border-radius: 3%;
+    transition: 0.3s; 
+}
+
+.submit:hover {
+    border:0;
+    background: #191919;
+    display: block;
+    margin: 1% auto;
+    text-align: center;
+    border: 2px solid orange;
+    padding:3% 2%;
+    width: 15%;
+    outline: none;
+    color: orange;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.box input[type="text"]:focus , .box input[type="password"]:focus{
+    border:0;
+    background: #191919;
+    display: block;
+    margin: 1% auto;
+    text-align: center;
+    border: 2px solid orange;
+    padding:3% 2%;
+    width: 35%;
+    outline: none;
+    color: orange;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+.box input[type="text"]:hover , .box input[type="password"]:hover{
+    border:0;
+    background: #191919;
+    display: block;
+    margin: 1% auto;
+    text-align: center;
+    border: 2px solid orange;
+    padding:3% 2%;
+    width: 35%;
+    outline: none;
+    color: orange;
+    border-radius: 50%;
+    transition: 0.3s;
+}
