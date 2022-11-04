@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang ="ita">
+    <head>
+<title>Progetto calcolatrice</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="css.css">
+    </head>
+    <body>
+<header>
+    
+    <div class="clicca">
+        <div>
+            <p>
+                <h1>
+                    Inizia a fare i calcoli
+                </h1>
+            </p>  
+        </div>
+
+        <div class="calcolatrice"> <!--iniziamo a fare un div che contiene tutti gli altri "tasti"-->
+            <input type="text" id="numbers"><br>
+            <button class="tasto" type="button" data-simbolo="1"  onclick="aggiungiCifra(this)">1</button><!--questo, come tutti gli altri button contiene un data-simbolo per avere un inner value e una proprietà onclick-->
+            <button class="tasto" type="button" data-simbolo="2"  onclick="aggiungiCifra(this)">2</button>
+            <button class="tasto" type="button" data-simbolo="3"  onclick="aggiungiCifra(this)">3</button>
+            <br>
+            <button class="tasto" type="button" data-simbolo="4" onclick="aggiungiCifra(this)">4</button>
+            <button class="tasto" type="button" data-simbolo="5" onclick="aggiungiCifra(this)">5</button>
+            <button class="tasto" type="button" data-simbolo="6" onclick="aggiungiCifra(this)">6</button>
+            <br>
+            <button class="tasto" type="button" data-simbolo="7" onclick="aggiungiCifra(this)">7</button>
+            <button class="tasto" type="button" data-simbolo="8" onclick="aggiungiCifra(this)">8</button>
+            <button class="tasto" type="button" data-simbolo="9" onclick="aggiungiCifra(this)">9</button>
+            <br>
+            <button class="tasto" type="button" data-simbolo="0" onclick="aggiungiCifra(this)">0</button>
+            <button class="tasto operatori"type="button"  data-simbolo="+" onclick="aggiungiCifra(this)">+</button>
+            <button class="tasto operatori" type="button" data-simbolo="-" onclick="aggiungiCifra(this)">-</button>
+            <br>
+            <button class="tasto operatori"type="button"  data-simbolo="*" onclick="aggiungiCifra(this)">*</button>
+            <button class="tasto operatori" type="button" data-simbolo="/" onclick="aggiungiCifra(this)">/</button>
+            <button class="tasto" type="button"  onclick="uguale()">=</button><!--qui richiamo solo la funzione altrimenti l'uguale non mi restituirebbe il risultato-->
+            <br>
+            <button class="tasto" type="button" data-simbolo="00" onclick="aggiungiCifra(this)">00</button>
+            <button class="tasto" type="button" data-simbolo="C" onclick="cancella(this)">C</button>
+            <button class="tasto" type="button" data-simbolo="." onclick="aggiungiCifra(this)">.</button>
+            <br>
+            <button class="tasto" type="button" data-simbolo="000" onclick="aggiungiCifra(this)">000</button>
+            <button class="tasto" type="button" data-simbolo="All-clear" onclick="cancellaTutto(this)">AC</button>
+            <button class="tasto" type="button" data-simbolo="9" onclick="cancellaTutto(this)">9</button>
+        </div>
+
+    </div> 
+</header>
+<main>
+
+</main>
+<footer>
+
+</footer>
+<script src="javascript.js"></script>
+    </body>
+</html>
