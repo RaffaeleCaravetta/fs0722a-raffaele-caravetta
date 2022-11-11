@@ -255,31 +255,56 @@ const movies = [
 /* ESERCIZIO 20
   Scrivi una funzione per selezionare l'elemento dotato di id "container" all'interno della pagina.
 */
-
+let container = document.querySelector("#container")
 /* ESERCIZIO 21
   Scrivi una funzione per selezionare ogni tag <td> all'interno della pagina.
 */
-
+function selezionaTag(){
+  document.querySelectorAll("td")
+}
 /* ESERCIZIO 22
   Scrivi una funzione che, tramite un ciclo, stampa in console il testo contenuto in ogni tag <td> all'interno della pagina.
 */
-
+function stampa(){
+  let tags= document.querySelectorAll("td")
+  for(let tag of tags){
+    console.log(tag)
+  }
+}
+stampa()
 /* ESERCIZIO 23
   Scrivi una funzione per aggiungere un background di colore rosso a ogni link all'interno della pagina.
 */
+function coloreRosso(){
+
+let sfondoRosso = document.querySelectorAll("a")
+for(let link of sfondoRosso){
+  link.style.backgroundColor="red"
+}
+}
 
 /* ESERCIZIO 24
   Scrivi una funzione per aggiungere un nuovo elemento alla lista non ordinata con id "myList".
 */
+function nuovoEl(){
+  let my = document.querySelector("#myList")
+  return my = document.createElement("li")
+}
 
 /* ESERCIZIO 25
   Scrivi una funzione per svuotare la lista non ordinata con id "myList".
 */
-
+function svuotaEl(){
+  let my = document.querySelector("#myList")
+  return my = document.textContent("")
+}
 /* ESERCIZIO 26
   Scrivi una funzione per aggiungere ad ogni tag <tr> la classe CSS "test"
 */
-
+function OgniTr(){
+  let c = document.querySelectorAll("tr")
+  c.classList.add="Classe"
+}
 // [EXTRA] JS Avanzato
 
 /* ESERCIZIO 27

@@ -126,13 +126,54 @@ isThisAnEmail()
     document.querySelector('#time').textContent=`${giorni}`
  
  }
-WhatDayIs()
+WhatDayIs();
+
+ 
+
+let numero = 3;
+
+function rollTheDices(num) {
+       
+  let dice3 =[]
+  for(let i=0;i<num;i++){
+    dice3.push(dice())
+  }
+
+let somma = dice3.reduce((p,c)=>p+c)
+
+let obj = {
+sum:somma,
+values:dice3,
+}
+
+return obj
+}
+
+console.log(rollTheDices(numero))
+
+/*
+ Scrivi una funzione chiamata "howManyDays" che riceve una data come parametro e ritorna il numero di giorni trascorsi da tale data.
+*/
+let data = new Date("October 13, 1994")
+
+function howManyDays(data){
+
+let oggi = new Date()
+
+oggi = oggi.getTime()
+
+let dataScelta = data.getTime()
+
+let differenza = oggi-dataScelta
+
+let giorniTrascorsi=Math.floor(differenza/8.64e+7)
+
+return giorniTrascorsi
+}
+console.log(howManyDays(data))
 
 
 
-//vuoto
-
-//vuoto
 
 function isTodayMyBirthday (){
     let now = new Date();
@@ -155,7 +196,7 @@ if(myBirthday==oggi){
 }
 isTodayMyBirthday()
 
-
+/**************************************************************************/
 const movies = [
   {
     Title: 'The Lord of the Rings: The Fellowship of the Ring',
@@ -271,19 +312,79 @@ const movies = [
       'https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_SX300.jpg',
   },
 ]
+
+
+
+let obj={ //Ritornami l'oggetto senza la proprietà uguale a "stringa1"
+  name:"Raffaele",
+  surname:"Caravetta",
+  eta:28
+}
+
+let stringa1="eta"
+
+function deleteProp(oggetto,stringa){
+
+delete oggetto[stringa]
+
+return oggetto
+}
+console.log(deleteProp(obj,stringa1))
+
+
+
+function newWestMovie(){ //Dato "anno2" uguale a zero compara la data di uscita di ogni film fin quando la più recente entri in "anno2" e ritornamelo nella variabile "film"
+    let anno2=0
+  for (let i=0;i<movies.length;i++){
+    let anno1=movies[i].Year
+ if(anno1>anno2){
+  anno2=anno1
+    } 
+ }
+  
+ let film = movies.find(movies=>movies.Year==anno2)
+return film
+
+}
+
+ console.log(newWestMovie())
+ 
+    
+  function countMovies(oggetto){//dammi il valore della lunghezza di "movies"
+   
+    return Object.keys(movies).length;
+}
+
+  console.log(countMovies(movies))
+    
+
+
+  function onlyTheYears(array) { //fai il console.log solo di "Year" of "Movies"
+    console.log(array.map((ele) => ele.Year));
+  }
+onlyTheYears(movies);
+
+function onlyInLastMillennium(array){//ritornami movies con "Year" minore di 2000
+let scorso= array.filter((ele) => ele.Year < 2000);
+return scorso
+}
+console.log(onlyInLastMillennium(movies))
+
 // vuoto
 
+//vuoto
 
-function newWestMovie(a,b){ //ridammi "movies" ordinato per Year crescente
-    
-   return b.Year - a.Year;
-}
-movies.sort(newWestMovie)
-console.log(movies)
-    
-    //vuoto
-    
-    
+
+
+
+function removeIndex(n){// ritornami gli oggetto di "movies" senza il numero "6"
+  let copiaArr = [...movies];
+
+   return copiaArr.splice(n);
+};
+console.log(removeIndex(6));
+
+//Le altre sono nel file D10.js
     </script>
 </body>
 </html>
