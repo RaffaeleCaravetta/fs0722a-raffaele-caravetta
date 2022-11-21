@@ -16,14 +16,15 @@
         
         @media screen and (min-width: 320px) {   /* mobile first */
         header nav ul li{
-        display: inline;
-        padding: 10px;}
+       display:inline-block;}
         }                              
         @media screen and (min-width: 480px) {                                        /* smartphone landscape */
        
         }
         @media screen and (min-width: 576px) {                                        /* tablet */
-        table {
+       
+       
+            table {
             margin:15% auto 15% auto;
             
         }
@@ -34,56 +35,100 @@
         }
         @media screen and (min-width: 1024px) {                                       /* laptop */
         }
-        @media screen and (min-width: 1200px){                                         /* desktop */
-            header{
-               text-align: left;
-            }
-            header div, header div p, header nav, header nav ul {
-               display: inline;
-            }
-            header div p{
-               margin-left: 5%;
-               padding :60px 30px 60px 30px;
-            }
-            header nav {
-                margin-left: 50%;
-                
-            }
+        @media screen and (min-width: 1200px) { /*Desktop*/
+  header {
+    text-align: left;
+  }
+  header .brand,
+  header nav,
+  header .brand p {
+    display: inline-block;
+  }
 
-            table {
-            margin:7% auto 7% auto;
-            
-        }
+  header .brand {
+    width: 75%;
+  }
+  header .brand img {
+    vertical-align: middle;
+  }
+  header .brand p {
+    margin-bottom: 0;
+  }
+}
 
-        section{
-        border-radius: 1rem;
-        height: 300px;
-        padding:5% 5% 5% 5%
-        }
+header nav ul {
+  margin: 0;
+}
+header nav li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 10px;
+}
+header nav li:last-child {
+  margin-right: 0;
+}
+header nav li a {
+  color: white;
+  text-decoration: none;
+}
+header nav li a:hover {
+  color: red;
+}
+header nav li a::before {
+  content: "\22c6\0020";
+}
+section {
+    border-radius: 20px;
+  }
+  iframe,
+  section {
+    display: inline-block;
+    width: 50%;
+    margin-inline: -2px;
+    vertical-align: middle;
+  }
 
-        iframe,section{
-           width: 40%;
-           height: 300px
-        }
-        
-        iframe,section,section h2,section p,section form,section fieldset,section input,section button{
-           
-            
-            display: inline;
-        }
+  iframe {
+    height: 267px;
+  }
+  section {
+    height: 267px;
+  }
+  aside div {
+    display: inline-block;
+    width: 33.333%;
+    margin-inline: -2px;
+  }
+        @media print { /* stampa */
+            body {
+    font-size: 24px;
+    padding: 0;
+    background-image: none;
+  }
+  main {
+    box-shadow: none;
+    margin: 0;
+  }
+  thead tr {
+    background-color: #d3d3d3;
+    color: black;
+  }
+  thead tr,
+  tbody tr {
+    border-bottom: 1px solid #666;
+  }
 
-
-        aside,aside div,aside a, aside p{
-            display:inline;
-           
-        }
-        aside div{
-            padding:3%;
-        }
-        } 
-        @media print {
-                                       /* stampa */
-        }
+  header,
+  article section,
+  iframe,
+  aside,
+  footer,
+  .social,
+  .toTop {
+    display: none;
+  }
+}                       
+       
 
 
     </style>
@@ -91,10 +136,8 @@
 
 <body>
     <header>
-        <div>
+        <div class="brand">
             <img src="./assets/img/logo.svg" alt="logo del blog" width="250" height="60"> 
-        </div>
-        <div>
             <p>Epicode - Il blog dei developers</p>
        </div>
         <nav>
