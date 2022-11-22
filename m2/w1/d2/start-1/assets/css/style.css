@@ -358,9 +358,26 @@ aside div {
   margin-bottom: 1em;
   padding: 1em;
 }
+#i1{
+  float:right;
+  color:grey;
+
+}
+#i2{
+  float:right;
+  color:grey;
+
+
+}
+#i3{
+  float:right;
+  color:grey;
+
+
+}
 @media screen and (min-width: 768px) {
   
-  
+}
 
 
 @media screen and (min-width: 1200px) {
@@ -370,7 +387,6 @@ aside div {
     margin-inline: -2px;
   }
 
-  .
 }
 aside div p:last-child {
   margin-bottom: 0;
@@ -392,10 +408,15 @@ footer {
   font-size: 1.2rem;
 }
 
+#up{
+  z-index: -1;
+}
 
 #bottoni {
+  position: fixed;
   right: 0;
   bottom: 0;
+  text-decoration: none;
   list-style-type: none;
   z-index: 3;
 }
@@ -405,16 +426,19 @@ footer {
   opacity: 60%;
   padding: 1rem;
   margin-bottom: 0.5rem;
-  border-radius: 10%;
+  border-radius: 1rem;
   border: solid 2px white;
   list-style-type: none;
+  text-decoration: none;
+  width: fit-content;
 }
 @media screen and (min-width: 700px) {
  #bottoni, #bottoni li{
   display: none;
+  z-index:-1;
  }
 
-i#up{
+#up{ 
   padding:1%;
   background: transparent;
   border: solid 3px white;
@@ -423,14 +447,10 @@ i#up{
   border-radius: 1rem;
   position: absolute;
   right:0;
-  box-shadow: 0 2px  0 2px grey  ;
-}
- #squar{
-  display: none;
+  box-shadow: 0 2px  0 2px grey ; 
+  z-index:2;
 }
 
-#calenda{
-  display: none;
 }
 @media screen and (min-width: 800px) {
   footer {
