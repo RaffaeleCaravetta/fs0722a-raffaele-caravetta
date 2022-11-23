@@ -1,0 +1,35 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    color:brown
+}
+.card{
+    flex: 0 0 260px; /*growth, shrink, basis*/
+    margin: 10px;
+    border-radius: 2rem;
+    background: beige;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around center;
+    : 
+}
+.card img{
+    border-radius: 2rem 2rem 0 0;
+    max-width: 100%;
+}
+.card .text .miao{
+    padding: 0 20px 20px;
+    display: flex;
+}
+.bold{
+    font-size: 24px;
+}
+.card .text > button {
+    background: bisque;
+    color: brown;
+    padding: 10px;
+    width: 80%;
+    border-radius: 1rem;
+    margin: 0 0 5% 10%;
+}
