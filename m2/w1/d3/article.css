@@ -43,26 +43,27 @@
       .card{
         display: flex;
         flex-direction:column;
-          flex: 0 0 500px; /*growth, shrink, basis*/
-          margin: 10px;
+          flex: 0 0 360px; /*growth, shrink, basis*/
+          margin: 3px;
           border-radius: 2rem;
           background: beige;
           align-items: center;
           align-content: center;
           justify-content: space-around center;
           height: 600px;
-          width: 100%;
+          
   
       }
       .card img{
           float: left;
           margin:1%;
-          width: 340px;
-         height:200px;
+          width: 90%;
+          height:200px;
       
       }
       .card .miao{
-         margin:4% 2% 2% 0;
+         margin:4% 2% 2% 2%;
+         height: 100%;
       }
       .bold{
           font-size: 24px;

@@ -44,17 +44,19 @@ a{
     margin-top: 25px;
     margin-bottom: 25px;
     margin-right: 10%;
+    float:left;
+    display:block;
 }
 #ok img, #ok p b{
    float:left;
    display:block;
 }
 #ok img{
-    padding-right: 50%;
+    padding-right: 20%;
 }
 
 .bold{
-    font-size: 24px;
+    font-size: 16px;
     color: brown;
    
 }
