@@ -67,7 +67,7 @@ transition: 3.5s
     animation-delay: -1s;
     animation-iteration-count: 1;
     animation-timing-function: ease;
-    transform:rotate(0deg);
+    transform:scale (1,3 ) rotate(0deg);
     transition: 1s;
     z-index:5
     
@@ -93,7 +93,7 @@ transition: 3.5s
     animation-delay: -1s;
     animation-iteration-count: 1;
     animation-timing-function: ease;
-    transform: rotate(0deg);
+    transform:scale (1,3 ) rotate(0deg);
     transition:1s;
     z-index: 5;
 }
@@ -118,7 +118,7 @@ transition:2s;
     animation-delay: -1s;
     animation-iteration-count: 1;
     animation-timing-function: ease;
-    transform: rotate(0deg);
+    transform:scale (1,3 ) rotate(0deg);
     transition:1s;
     z-index: 5;
     }

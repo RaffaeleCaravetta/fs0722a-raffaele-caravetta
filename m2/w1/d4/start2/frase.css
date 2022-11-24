@@ -56,30 +56,30 @@ div #contenitore{
     position: relative; 
     animation-duration: 4s;
     animation-delay: 0s; 
-    animation-iteration-count: 1;
+    animation-iteration-count: infinite;
     animation-timing-function: ease;
    } @-webkit-keyframes animazione_testo_01{
     0% {opacity:0;  transform: translate(0,-15px);display: block;visibility: visible; }
-    5%{opacity: 0.1;  transform: translate(0,-13px);display: block; visibility: visible;}
-    10%{opacity: 0.2;  transform: translate(0,-11px);display: block; visibility: visible;}
-    15%{opacity: 0.3;  transform: translate(0,-9px);display: block; visibility: visible;}
-    20%{opacity: 0.4;  transform: translate(0,-7px);display: block; visibility: visible;}
-    25%{opacity: 0.5;  transform: translate(0,-6px);display: block; visibility: visible;}
-    30%{opacity: 0.6;  transform: translate(0,-5px);display: block; visibility: visible;}
-    35%{opacity: 0.7;  transform: translate(0,-4px);display: block; visibility: visible;}
-    40%{opacity: 0.8;  transform: translate(0,-3px);display: block; visibility: visible;}
-    45%{opacity: 0.9;  transform: translate(0,-2px);display: block; visibility: visible;}
-    50%{opacity: 1;  transform: translate(0,0px);display: block;visibility: visible; }
-    55%{opacity: 0.9;  transform: translate(0,+2px);display: block; visibility: visible;}
-    60%{opacity: 0.8;  transform: translate(0,+3px);display: block; visibility: visible;}
-    65%{opacity: 0.7;  transform: translate(0,+4px);display: block; visibility: visible;}
-    70%{opacity: 0.6;  transform: translate(0,+5px);display: block; visibility: visible;}
-    75%{opacity: 0.5;  transform: translate(0,+6px);display: block; visibility: visible;}
-    80%{opacity: 0.4;  transform: translate(0,+7px);display: block; visibility: visible;}
-    85%{opacity: 0.3;  transform: translate(0,+9px);display: block; visibility: visible;}
-    90%{opacity: 0.2;  transform: translate(0,+11px);display: block; visibility: visible;}
-    95%{opacity: 0.1;  transform: translate(0,+13px);display: block; visibility: visible;}
-    100% {opacity: 0; transform: translate(0,+15px);display: block;visibility: visible; }
+    5%{opacity: 0.2;  transform: translate(0,-13px);display: block; visibility: visible;}
+    10%{opacity: 0.4;  transform: translate(0,-11px);display: block; visibility: visible;}
+    15%{opacity: 0.6;  transform: translate(0,-9px);display: block; visibility: visible;}
+    20%{opacity: 0.8;  transform: translate(0,-6px);display: block; visibility: visible;}
+    25%{opacity: 0.9;  transform: translate(0,-3px);display: block; visibility: visible;}
+    30%{opacity: 1;  transform: translate(0,0px);display: block; visibility: visible;}
+    35%{opacity: 0;  transform: translate(0,4px);display: block; visibility: visible;}
+    40%{opacity: 0;  transform: translate(0,6px);display: block; visibility: visible;}
+    45%{opacity: 0;  transform: translate(0,8px);display: block; visibility: visible;}
+    50%{opacity: 0;  transform: translate(0,10px);display: block;visibility: visible; }
+    55%{opacity: 0;  transform: translate(0,+12px);display: block; visibility: visible;}
+    60%{opacity: 0;  transform: translate(0,+13px);display: block; visibility: visible;}
+    65%{opacity: 0;  transform: translate(0,+14px);display: block; visibility: visible;}
+    70%{opacity: 0;  transform: translate(0,+15px);display: block; visibility: visible;}
+    75%{opacity: 0;  transform: translate(0,+16px);display: block; visibility: visible;}
+    80%{opacity: 0;  transform: translate(0,+17px);display: block; visibility: visible;}
+    85%{opacity: 0;  transform: translate(0,+19px);display: block; visibility: visible;}
+    90%{opacity: 0;  transform: translate(0,+24px);display: block; visibility: visible;}
+    95%{opacity: 0;  transform: translate(0,+27px);display: block; visibility: visible;}
+    100% {opacity: 0; transform: translate(0,+30px);display: block;visibility: visible; }
    }
 #i2{animation-name: animazione_testo_02;
     display:block;
@@ -87,31 +87,31 @@ div #contenitore{
     position: relative; 
     top:-60px;
     animation-duration: 4s;
-    animation-delay: 4s; 
-    animation-iteration-count:1;
+    animation-delay: 1.33s; 
+    animation-iteration-count:infinite;
     animation-timing-function: ease;
 } @-webkit-keyframes animazione_testo_02{
     0% {opacity:0;  transform: translate(0,-15px);display: block;visibility: visible; }
-    5%{opacity: 0.1;  transform: translate(0,-13px);display: block; visibility: visible;}
-    10%{opacity: 0.2;  transform: translate(0,-11px);display: block; visibility: visible;}
-    15%{opacity: 0.3;  transform: translate(0,-9px);display: block; visibility: visible;}
-    20%{opacity: 0.4;  transform: translate(0,-7px);display: block; visibility: visible;}
-    25%{opacity: 0.5;  transform: translate(0,-6px);display: block; visibility: visible;}
-    30%{opacity: 0.6;  transform: translate(0,-5px);display: block; visibility: visible;}
-    35%{opacity: 0.7;  transform: translate(0,-4px);display: block; visibility: visible;}
-    40%{opacity: 0.8;  transform: translate(0,-3px);display: block; visibility: visible;}
-    45%{opacity: 0.9;  transform: translate(0,-2px);display: block; visibility: visible;}
-    50%{opacity: 1;  transform: translate(0,0px);display: block;visibility: visible; }
-    55%{opacity: 0.9;  transform: translate(0,+2px);display: block; visibility: visible;}
-    60%{opacity: 0.8;  transform: translate(0,+3px);display: block; visibility: visible;}
-    65%{opacity: 0.7;  transform: translate(0,+4px);display: block; visibility: visible;}
-    70%{opacity: 0.6;  transform: translate(0,+5px);display: block; visibility: visible;}
-    75%{opacity: 0.5;  transform: translate(0,+6px);display: block; visibility: visible;}
-    80%{opacity: 0.4;  transform: translate(0,+7px);display: block; visibility: visible;}
-    85%{opacity: 0.3;  transform: translate(0,+9px);display: block; visibility: visible;}
-    90%{opacity: 0.2;  transform: translate(0,+11px);display: block; visibility: visible;}
-    95%{opacity: 0.1;  transform: translate(0,+13px);display: block; visibility: visible;}
-    100% {opacity: 0; transform: translate(0,+15px);display: block;visibility: visible; }
+    5%{opacity: 0.2;  transform: translate(0,-13px);display: block; visibility: visible;}
+    10%{opacity: 0.4;  transform: translate(0,-11px);display: block; visibility: visible;}
+    15%{opacity: 0.6;  transform: translate(0,-9px);display: block; visibility: visible;}
+    20%{opacity: 0.8;  transform: translate(0,-6px);display: block; visibility: visible;}
+    25%{opacity: 0.9;  transform: translate(0,-3px);display: block; visibility: visible;}
+    30%{opacity: 1;  transform: translate(0,0px);display: block; visibility: visible;}
+    35%{opacity: 0;  transform: translate(0,4px);display: block; visibility: visible;}
+    40%{opacity: 0;  transform: translate(0,6px);display: block; visibility: visible;}
+    45%{opacity: 0;  transform: translate(0,8px);display: block; visibility: visible;}
+    50%{opacity: 0;  transform: translate(0,10px);display: block;visibility: visible; }
+    55%{opacity: 0;  transform: translate(0,+12px);display: block; visibility: visible;}
+    60%{opacity: 0;  transform: translate(0,+13px);display: block; visibility: visible;}
+    65%{opacity: 0;  transform: translate(0,+14px);display: block; visibility: visible;}
+    70%{opacity: 0;  transform: translate(0,+15px);display: block; visibility: visible;}
+    75%{opacity: 0;  transform: translate(0,+16px);display: block; visibility: visible;}
+    80%{opacity: 0;  transform: translate(0,+17px);display: block; visibility: visible;}
+    85%{opacity: 0;  transform: translate(0,+19px);display: block; visibility: visible;}
+    90%{opacity: 0;  transform: translate(0,+24px);display: block; visibility: visible;}
+    95%{opacity: 0;  transform: translate(0,+27px);display: block; visibility: visible;}
+    100% {opacity: 0; transform: translate(0,+30px);display: block;visibility: visible; }
    }
 #i3{animation-name: animazione_testo_03;
     display: block;
@@ -119,30 +119,30 @@ div #contenitore{
     position: relative; 
     top: -120px;
     animation-duration: 4s;
-    animation-delay: 8s; 
-    animation-iteration-count: 1;
+    animation-delay: 2.66s; 
+    animation-iteration-count: infinite;
     animation-timing-function: ease;
 } @-webkit-keyframes animazione_testo_03{
     0% {opacity:0;  transform: translate(0,-15px);display: block;visibility: visible; }
-    5%{opacity: 0.1;  transform: translate(0,-13px);display: block; visibility: visible;}
-    10%{opacity: 0.2;  transform: translate(0,-11px);display: block; visibility: visible;}
-    15%{opacity: 0.3;  transform: translate(0,-9px);display: block; visibility: visible;}
-    20%{opacity: 0.4;  transform: translate(0,-7px);display: block; visibility: visible;}
-    25%{opacity: 0.5;  transform: translate(0,-6px);display: block; visibility: visible;}
-    30%{opacity: 0.6;  transform: translate(0,-5px);display: block; visibility: visible;}
-    35%{opacity: 0.7;  transform: translate(0,-4px);display: block; visibility: visible;}
-    40%{opacity: 0.8;  transform: translate(0,-3px);display: block; visibility: visible;}
-    45%{opacity: 0.9;  transform: translate(0,-2px);display: block; visibility: visible;}
-    50%{opacity: 1;  transform: translate(0,0px);display: block;visibility: visible; }
-    55%{opacity: 0.9;  transform: translate(0,+2px);display: block; visibility: visible;}
-    60%{opacity: 0.8;  transform: translate(0,+3px);display: block; visibility: visible;}
-    65%{opacity: 0.7;  transform: translate(0,+4px);display: block; visibility: visible;}
-    70%{opacity: 0.6;  transform: translate(0,+5px);display: block; visibility: visible;}
-    75%{opacity: 0.5;  transform: translate(0,+6px);display: block; visibility: visible;}
-    80%{opacity: 0.4;  transform: translate(0,+7px);display: block; visibility: visible;}
-    85%{opacity: 0.3;  transform: translate(0,+9px);display: block; visibility: visible;}
-    90%{opacity: 0.2;  transform: translate(0,+11px);display: block; visibility: visible;}
-    95%{opacity: 0.1;  transform: translate(0,+13px);display: block; visibility: visible;}
-    100% {opacity: 0; transform: translate(0,+15px);display: block;visibility: visible; }
+    5%{opacity: 0.2;  transform: translate(0,-13px);display: block; visibility: visible;}
+    10%{opacity: 0.4;  transform: translate(0,-11px);display: block; visibility: visible;}
+    15%{opacity: 0.6;  transform: translate(0,-9px);display: block; visibility: visible;}
+    20%{opacity: 0.8;  transform: translate(0,-6px);display: block; visibility: visible;}
+    25%{opacity: 0.9;  transform: translate(0,-3px);display: block; visibility: visible;}
+    30%{opacity: 1;  transform: translate(0,0px);display: block; visibility: visible;}
+    35%{opacity: 0;  transform: translate(0,4px);display: block; visibility: visible;}
+    40%{opacity: 0;  transform: translate(0,6px);display: block; visibility: visible;}
+    45%{opacity: 0;  transform: translate(0,8px);display: block; visibility: visible;}
+    50%{opacity: 0;  transform: translate(0,10px);display: block;visibility: visible; }
+    55%{opacity: 0;  transform: translate(0,+12px);display: block; visibility: visible;}
+    60%{opacity: 0;  transform: translate(0,+13px);display: block; visibility: visible;}
+    65%{opacity: 0;  transform: translate(0,+14px);display: block; visibility: visible;}
+    70%{opacity: 0;  transform: translate(0,+15px);display: block; visibility: visible;}
+    75%{opacity: 0;  transform: translate(0,+16px);display: block; visibility: visible;}
+    80%{opacity: 0;  transform: translate(0,+17px);display: block; visibility: visible;}
+    85%{opacity: 0;  transform: translate(0,+19px);display: block; visibility: visible;}
+    90%{opacity: 0;  transform: translate(0,+24px);display: block; visibility: visible;}
+    95%{opacity: 0;  transform: translate(0,+27px);display: block; visibility: visible;}
+    100% {opacity: 0; transform: translate(0,+30px);display: block;visibility: visible; }
    }
 
