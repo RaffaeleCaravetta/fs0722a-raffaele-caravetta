@@ -254,7 +254,7 @@ div#container >div#header-sx >p{
             color: white;
         }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px)and (max-width:900px)  {
 
     div#container{
         background: #ffc017;
@@ -496,7 +496,7 @@ opacity: 0.2;
 }
 
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px)and (max-width:900px)  {
 
     main{
         font-family: 'Roboto', sans-serif;
@@ -898,7 +898,7 @@ left: 430px;
 }
 
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px)and (max-width:900px)  {
 
     #super-container-2-3{
         display: grid;
