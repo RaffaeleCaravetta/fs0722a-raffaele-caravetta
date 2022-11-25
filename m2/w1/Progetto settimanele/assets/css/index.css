@@ -504,7 +504,7 @@ opacity: 0.2;
 }
 
 
-@media screen and (min-width: 768px)and (max-width:900px)  {
+@media screen and (min-width: 768px)and (max-width:1200px)  {
 
     main{
         font-family: 'Roboto', sans-serif;
@@ -513,7 +513,19 @@ opacity: 0.2;
         font-size: 14px;
         font-weight: bold;
         position:relative;
+        top:-10px;
         left: 50px;
+    }
+    main >h3>svg{
+        position: relative;
+        top:8px;
+    }
+    .ppp{
+        position: relative;
+        left:115px;
+    }
+    .hidden{
+        visibility: hidden;
     }
     #contenitore{
         background: white;
@@ -524,10 +536,22 @@ opacity: 0.2;
     }
     .img{
         position: relative;
-        top: 10px;
-        left: -8px;
+        top: 5px;
+        left: -5px;
+        max-width: 20px;
         border-radius: 50%;
     }
+    .numero{
+        position:relative;
+        top: 40px;
+        left:-50px;
+        font-size:30px;
+        font-weight:900;
+        color: gray;
+        opacity: 0.2;
+            
+        }
+      
     #provetta{
         display: grid;
         background: transparent;
@@ -550,7 +574,7 @@ opacity: 0.2;
         display: block;
         position: relative;
         height: 50px;
-        width: 180px;
+        width: 210px;
         margin:0 auto;
         font-size:14px;
         
@@ -576,16 +600,7 @@ opacity: 0.2;
         text-align: left;
         font-size: 12px;
     }
-    .numero{
-    position:relative;
-    top: 40px;
-    left:-50px;
-    font-size:30px;
-    font-weight:900;
-    color: gray;
-    opacity: 0.2;
-        
-    }
+    
     
     .prova{
         position: relative;
@@ -942,8 +957,8 @@ left: 430px;
     .immagine{
         position: relative;
         top: -100px;
-        width: 200px;
-        height: 130px;
+        width: 180px;
+        height: 140px;
         margin-right: 80px;
         float: right;
     }
@@ -1073,27 +1088,27 @@ left: 430px;
     
     .hrttczz{
     position: relative;
-    left: 430px;
+    left: 190px;
     }
     .uno{
         position: relative;
-        left: 440px; 
+        left: 190px; 
     }
     .tre{
         position: relative;
-        left: 350px; 
+        left: 100px; 
     }
     .quattro{
         position: relative;
-        left: 420px; 
+        left: 170px; 
     }
     .sei{
         position: relative;
-        left: 350px; 
+        left: 100px; 
     }
     .sette{
         position: relative;
-        left: 460px;
+        left: 210px;
     }
     .button-transparent{
         background: transparent;
@@ -1120,8 +1135,15 @@ left: 430px;
 
         position: relative;
         right: -250px;
-        top:-200px;
-        max-width:100px;
+        top:-180px;
+        max-width:150px;
+        margin-top: 35px;
     }
     
+    .equal{
+        line-height: 100%;
+    }
+    #heinz{
+        position: relative;
+    }
 }
