@@ -10,16 +10,16 @@ body{
     width: 100%;
     vertical-align: middle;
     z-index: 0;
+     grid-template-columns: [iniz-col] 25% [col-2] 25% [col-3] 25% [col-4] 25% [fin-col]; 
 }
 #provetta{
     display: grid;
     background: gray;
-    grid-template-columns: [iniz-col] 25% [col-2] 25% [col-3] 25% [col-4] 25% [fin-col]; 
+   
     text-align: center;
     height: 600px;
-    width: 60%;
-    vertical-align: middle;
-    margin: auto;
+    width: 100%;
+
     z-index: 1;
 
 }
@@ -27,8 +27,7 @@ body{
 #contenitore #provetta >div{
     display: block;
     position: relative;
-    height: 45%;
-    width:65%;
+    width:55%;
     margin: 15% 0 0 20%;
     box-shadow: 0 2px 2px 0 black;
     padding-top:11% ;
