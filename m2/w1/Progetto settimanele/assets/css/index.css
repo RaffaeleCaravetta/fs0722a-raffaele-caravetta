@@ -430,10 +430,7 @@ opacity: 0.2;
         top: -40px;
     
     }
-    #wauw{
-        position: relative;
-        top:0
-    }
+   
     #contenitore #provetta >div{
         display: block;
         position: relative;
@@ -443,10 +440,7 @@ opacity: 0.2;
         font-size:14px;
         
     }
-    #crazy{
-        position: relative;
-        top:0
-    }
+
     #contenitore #provetta >div >h5{
         font-weight: none;
     }
@@ -491,6 +485,20 @@ opacity: 0.2;
         position: relative;
         top: 5px;
     }
+
+    .abc{
+        position: relative;
+        top:-170px;
+    }
+    #wauw{
+        position: relative;
+        top:-300px;
+    }
+    #crazy{
+        position: relative;
+        top:-400px;
+    }
+
 
 
 }
@@ -708,7 +716,8 @@ left: 430px;
         position: relative;
         top: 100px;
         text-align: left;
-        margin-left: 30%;
+        left: -70px;
+        font-size: 12px;
     }
     .immagine{
         position: relative;
@@ -726,7 +735,7 @@ left: 430px;
         display: inline;
         position: relative;
         top: -250px;
-        right:100px;
+        right:-200px;
         text-align: left;
     }
     #acca5{
@@ -737,50 +746,56 @@ left: 430px;
         position: relative;
         left:-450px;
         bottom: -30px;
+        font-size: 10px;
     }
     #due{
         position: relative;
-        left:-350px;
-        bottom:2px;
-        
+        left:-370px;
+        bottom:-1px;
+        font-size: 10px;
     }
     #tre{
         position: relative;
-        left:-250px;
-        bottom: 35px;
+        left:-290px;
+        bottom: 28px;
+        font-size: 10px;
     }
     #quattro{
         position: relative;
-        left:-160px;
-        bottom: 68px;
+        left:-220px;
+        bottom: 54px;
+        font-size: 10px;
     }
     #cinque{
         position: relative;
-        left:-30px;
-        bottom:101px;
-        
+        left:-450px;
+        bottom:57px;
+        font-size: 10px;
     }
     #sei{
         position: relative;
-        left:-512px;
-        bottom: 60px;
+        left:-452px;
+        bottom: 57px;
+        font-size: 10px;
     }
 
     #sette{
         position: relative;
-        left:-350px;
-        bottom:93px;
-        
+        left:-320px;
+        bottom:86px;
+        font-size: 10px;
     }
     #otto{
         position: relative;
         left:-218px;
-        bottom: 126px;
+        bottom: 115px;
+        font-size: 10px;
     }
     #nove{
         position: relative;
-        left:-210px;
-        bottom: 126px;
+        left:-523px;
+        bottom: 86px;
+        font-size: 10px;
     }
 
     #a{
@@ -790,41 +805,41 @@ left: 430px;
     }
     #b{
         position: relative;
-        left:-400px;
+        left:-450px;
         bottom:90px;
         
     }
     #c{
         position: relative;
         left:-360px;
-        bottom: 90px;
+        bottom: 124px;
     }
     #d{
         position: relative;
-        left:-300px;
-        bottom: 90px;
+        left:-360px;
+        bottom: 124px;
     }
     #e{
         position: relative;
-        left:-90px;
-        bottom:122px;
+        left:-273px;
+        bottom:157px;
         
     }
     #f{
         position: relative;
-        left:-50px;
-        bottom: 122px;
+        left:-275px;
+        bottom: 156px;
     }
 
     #g{
         position: relative;
-        left:80px;
-        bottom:154px;
+        left:-165px;
+        bottom:189px;
         
     }
     #h{
         position: relative;
-        left:100px;
+        left:-498px;
         bottom: 154px;
     }
     #i{
@@ -834,9 +849,10 @@ left: 430px;
     }
     .grigio{
         border: transparent;
-        padding: 5px;
+        padding: 3px;
         border-radius: 1rem;
         color: gray;
+        font-size: 10px;
     }
     hr{
         visibility: hidden;
@@ -865,6 +881,10 @@ left: 430px;
     .sette{
         position: relative;
         left: 460px;
+    }
+
+    .small{
+        font-size: 10px;
     }
     .button-transparent{
         background: transparent;
