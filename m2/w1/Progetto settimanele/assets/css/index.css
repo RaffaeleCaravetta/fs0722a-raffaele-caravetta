@@ -664,7 +664,6 @@ margin-right: -100px;
 text-align: left;
 }
 
-
 .grigio{
     border: transparent;
     padding: 5px;
@@ -695,6 +694,10 @@ left: 430px;
 .sette{
     position: relative;
     left: 460px;
+}
+
+.small{
+    font-size: 14px;
 }
 .button-transparent{
     background: transparent;
