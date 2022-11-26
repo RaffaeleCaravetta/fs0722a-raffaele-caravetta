@@ -1,17 +1,21 @@
 
 /*Qui si fa riferimento solo alla parte con lo 'scroll'*/
-#main-nav{
-    background: #ffc017;
-    display: flex;
-    padding: 1em;
-    border-bottom: 1px black solid;
-    box-shadow: 3px solid black ;
+#sticky{
     position: sticky;
     position: -webkit-sticky; /* per farlo funzionare anche con Safari */
     top:0px;
     z-index:2;
     font-family: 'Spectral', serif;
      color: black;
+     background: #ffc017;
+}
+
+#main-nav{
+    background:transparent;
+    display: flex;
+    padding: 1em;
+    border-bottom: 1px black solid;
+    box-shadow: 3px solid black ;
 }
 #main-nav >div#svg{
    position: relative;
@@ -105,7 +109,7 @@ a{
 }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 900px) {
 
 
     #main-nav{
