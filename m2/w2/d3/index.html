@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="wau.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="Come-mantenere-i-fiori-freschi.webp" alt="fiori">
+        
+        <ul>
+            <li>Piantare</li>
+            <li>Annaffiare</li>
+            <li>Potare</li>
+            <li>Proteggere</li>
+            <li>Tirare</li>
+        </ul>
+        </nav>
+    </header>
+    <main id="main">
+        <div class="container">
+
+           <p><h1>I fiori portano allegria</h1>
+           <h4>Iscriviti per ricevere un bouquet</h4></p>
+           <form>
+            <label for="nome"><h2>Il tuo nome</h2></label>
+            <input type="text" name="nome" required>
+            <label for="email"><h2>La tua email</h2></label>
+            <input type="email" name="email" required>
+            <label for="checkbox"><h2>Ti piacciono i fiori?</h2></label>
+            <input type="checkbox" name="checkbox" id="checkSi" required><span>Si</span>
+            <input type="checkbox" name="checkbox" id="checkNo" required><span>No</span>
+            <button class="btn" id="button">Iscriviti</button>
+            <p id="compilation"></p>
+           </form>
+        </div>
+    </main>
+    <footer> <p>I mastri fiorai <span>P.Iva 47865912850342758</span></p></footer>
+    <script>
+     
+     let checkSi = document.getElementById("checkSi")
+     let checkNo = document.getElementById("checkNo")
+     let bottone = document.getElementById("button")
+     let p = document.getElementById("compilation")
+     let name = document.getElementById("wau")
+     let email = document.getElementById("wau1")
+    
+     bottone.addEventListener("click",(e) => {
+        e.preventDefault()
+         if ( !checkSi.checked && !checkNo.checked === true )  { 
+              p.innerText = "Seleziona almeno un'opzione"
+              let main_bg = document.getElementById("main").style.backgroundImage= "url('spring-flower-meadow_157744-1463.webp')"
+         } else if ( !checkNo.checked === false ) {
+                   p.innerText = " Datti all'ippica "
+                   let main_bg = document.getElementById("main").style.backgroundImage= "url('1660759580050_rainewsbdacdbeafbcedfabc.webp')" ;
+                   
+         }else {
+            p.innerText = " Ti è appena arrivata una mail "
+            let main_bg = document.getElementById("main").style.backgroundImage= "url('spring-flower-meadow_157744-1463.webp')";
+         }
+
+
+     })
+
+     
+  
+
+    </script>
+</body>
+</html>

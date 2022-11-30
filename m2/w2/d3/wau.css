@@ -1,0 +1,70 @@
+#compilation {
+  color: red;
+  font-size: 18px;
+}
+
+.btn {
+  margin-left: 1%;
+  padding: 10px;
+  border: none;
+  border-radius: 1rem;
+  background-color: salmon;
+}
+
+nav {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  background: pink;
+}
+nav img {
+  max-width: 200px;
+  justify-content: flex-start;
+}
+nav ul {
+  display: flex;
+  align-items: flex-end;
+  list-style-type: none;
+  align-items: center;
+}
+nav ul li {
+  padding: 10px;
+  list-style-type: none;
+  font-size: 20px;
+  background-color: salmon;
+  margin-left: 1px;
+}
+
+#main {
+  margin-top: 1%;
+  background-image: url("spring-flower-meadow_157744-1463.webp");
+  opacity: 0.2;
+  height: 400px;
+  text-align: center;
+  padding-top: 7%;
+  padding-bottom: 7%;
+  display: block;
+  background-size: cover;
+}
+#main .container {
+  opacity: 1.9;
+  height: 100%;
+  color: black;
+}
+
+footer {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  background: pink;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 1%;
+}
+footer p {
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+}/*# sourceMappingURL=wau.css.map */

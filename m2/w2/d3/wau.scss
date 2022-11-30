@@ -1,0 +1,57 @@
+@import 'variables';
+@import 'button';
+nav{
+    display:$flex ;
+    padding:$padding;
+    justify-content: space-between;
+    align-items: center;
+    background: pink;
+    img{
+        max-width: 200px;
+        justify-content: flex-start;
+    };
+    ul{
+        display: $flex;
+        align-items:$end;
+        list-style-type: none;
+        align-items: center;
+    }
+    ul li{
+    padding:$padding;
+    list-style-type: none;
+    font-size: $big;
+    background-color: salmon;
+    margin-left: 1px;
+}
+}
+#main{
+     margin-top: 1%;
+     background-image: $img;
+     opacity: 0.2;
+     height: 400px;
+     text-align: center;
+     padding-top: 7%;
+     padding-bottom: 7%;
+     display: block;
+     background-size: cover;
+    .container{
+        opacity: 1.9;
+        height:100%;
+        color: $snow;
+    }
+}
+footer{
+    display:$flex ;
+    padding:$padding;
+    justify-content: space-between;
+    align-items: center;
+    background: pink;
+    font-size: $big;
+    text-align: center;
+    margin-top: 1%;
+p{
+    text-align: center;
+    padding:$padding;
+    margin: auto;
+}
+}
