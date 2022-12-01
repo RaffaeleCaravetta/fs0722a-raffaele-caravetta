@@ -1,0 +1,15 @@
+.body {
+  background: yellow;
+}
+@media only screen and (max-width: 680px) {
+  .body {
+    background: lightblue;
+    color: pink;
+  }
+}
+@media only screen and (max-width: 481px) {
+  .body {
+    background: aquamarine;
+    color: blue;
+  }
+}/*# sourceMappingURL=media-queries-2.css.map */

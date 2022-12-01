@@ -1,0 +1,6 @@
+@for $m from 1 through 4 {
+    li.pipe#{$m} {
+    margin-left : $m * 2px;
+    color:white;
+    }
+}

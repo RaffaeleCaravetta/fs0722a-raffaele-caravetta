@@ -1,0 +1,30 @@
+
+@mixin devices ($breakpoint) {
+    @if $breakpoint == tablet {    
+        @media only screen and (max-width: 680px) {
+          @content;
+        }
+      }
+     
+      @if $breakpoint == mobile {
+        @media only screen and (max-width: 481px) {
+          @content;
+        }
+      }
+    }
+
+
+.body {
+    background: yellow;
+
+    @include devices(tablet) {
+        background: lightblue;
+        color:pink;
+   
+    }
+
+    @include devices(mobile) {
+        background: aquamarine;
+        color:blue;
+    }
+}
