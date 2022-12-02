@@ -11,9 +11,10 @@
     
 
    @mixin textColor($svg,$svgValue){
-        background-color: $svg;
+       background-color:$svg;
         @if $svgValue >= 5%{
-          color: #fff
+          color: #fff;
+          
         }@else{
             color: #000
         }
