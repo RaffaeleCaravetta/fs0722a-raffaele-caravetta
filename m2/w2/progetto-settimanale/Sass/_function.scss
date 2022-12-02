@@ -29,3 +29,14 @@
     }
     
 /*Se scrivo così, mi da errore :*/
+//oppure mi viene quest'altra in mente
+@function textColor2($svg){
+       
+    @if( $svg == darken(#f5f5f5,0%)){
+      $neroCambiabile: #000;
+      ;
+    }@else{
+        $neroCambiabile: #fff;
+      ;
+    }
+}
