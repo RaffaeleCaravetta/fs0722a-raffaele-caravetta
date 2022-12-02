@@ -79,10 +79,9 @@ div.img{
 .terzo{
     //Per fare la funzione ho usato @mixin, bisogna mettere la variabile contenente il colore di sfondo, e la percentuale vera dell'oscurità
     //ovviamente bisogna cambiare la percentuale in variabless.scss/$svg
-    background:textColor1($svg,6%);
+    @include textColor($svg,0%);
     
-    background-color: $svg;
-    color:$neroCambiabile
+    
     h1{
         font-size: $fs-larger;
     }
