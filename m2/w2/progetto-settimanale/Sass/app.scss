@@ -1,0 +1,557 @@
+@import 'variables';
+@import '_function';
+
+header{
+    width: 100%;
+    nav{
+    width:100%;
+    display:inline-block ;
+    text-align:center;
+    align-items:center;
+    background:$bg-color;
+    padding:10px 31% 10px 31%;
+    p{
+       font-weight: $fw-bold;
+        color: $f-color;
+        font-size: $fs-larger;
+    
+    }
+    p span{
+        
+        font-weight: normal;
+    }
+    ul{
+        list-style-type: none;
+        padding-left: 10px;
+    }
+    ul li{
+
+        color: red;
+    list-style-type: none;
+    font-size: $fs-reduct;
+    }
+
+    ul li#bianco{
+        color:$f-color;
+    }
+ a{
+    text-decoration: none;
+ }
+}
+}
+//primo div del main
+
+.sotto-header{
+    padding-left: 10px;
+    h1{
+        font-size:$fs-larger;
+    }
+    p{
+        font-size: $fs-reduct;
+    }
+    button{
+        background-color:#5c1a05;
+        color: #5c1a05;
+        padding:2px;
+        border: none;
+        border-radius: 0.5rem;
+        font-size: $fs-reduct;
+    }
+    button span{
+        color: $f-color;
+    }
+    }
+
+//secondo div del main
+    
+div.img{
+    padding-top: 10px;
+        width: 100%;
+        height:200px;
+        img{
+            width: 100%;
+            height:100%; 
+        }
+
+    }
+
+    //terzo div del main
+.terzo{
+    //Per fare la funzione ho usato @mixin, bisogna mettere la variabile contenente il colore di sfondo, e la percentuale vera dell'oscurità
+    //ovviamente bisogna cambiare la percentuale in variabless.scss/$svg
+    @include textColor($svg,00%);
+
+    h1{
+        font-size: $fs-larger;
+    }
+    p{
+        font-size: $fs-reduct;
+    }
+}
+
+    // quarto div del main
+  
+.partnerships{
+   h1{
+    font-size: $fs-larger;
+   }
+    img{
+    width: 150px;
+    height: 50px;
+}
+}
+
+.sopra_footer{
+   margin-bottom: 5%;
+    h1{
+        font-size: $fs-larger;
+    }
+    p{
+        font-size:$fs-reduct ;
+    }
+    img{
+        max-width:50px;
+        border-radius: 50%;
+    }
+button{
+    margin-top: 3%;
+}
+}
+footer{
+    background: $bg-color;
+    width: 100%;
+    color: $f-color;
+    ul{
+      list-style-type: none;
+    }
+    ul li{
+        font-size:$fs-reduct ;
+    }
+}
+@media screen and (min-width:361px) {
+    
+    header{
+        width: 100%;
+        nav{
+        width:100%;
+        display:inline-block ;
+        text-align:center;
+        align-items:center;
+        background:$bg-color;
+        padding:10px 31% 10px 31%;
+        p{
+           font-weight: $fw-bold;
+            color: $f-color;
+            font-size: perDue($fs-larger);
+        
+        }
+        p span{
+            
+            font-weight: normal;
+        }
+        ul{
+            list-style-type: none;
+            padding-left: 10px;
+        }
+        ul li{
+    
+            color: red;
+        list-style-type: none;
+        font-size: $fs-larger;
+        }
+    
+        ul li#bianco{
+            color:$f-color;
+        }
+     a{
+        text-decoration: none;
+     }
+    }
+    }
+    //primo div del main
+    
+    .sotto-header{
+        padding-left: 10px;
+    
+        h1{
+            font-size:perUnoeMezzo($fs-larger);
+        }
+        p{
+            font-size: $fs-reduct;
+        }
+        button{
+            background-color:#5c1a05;
+            color: #5c1a05;
+            padding:2px;
+            border: none;
+            border-radius: 0.5rem;
+            font-size: perUnoeMezzo($fs-reduct);
+        }
+        button span{
+            color: $f-color;
+        }
+        }
+    
+    //secondo div del main
+        
+    div.img{
+        padding-top: 10px;
+            width: 100%;
+            height:300px;
+            img{
+                width: 100%;
+                height:100%;
+            }
+    
+        }
+    
+        //terzo div del main
+    .terzo{
+        i{
+            font-size: $fs-larger;
+        }
+        h1{
+            font-size: perUnoeMezzo($fs-larger);
+        }
+        p{
+            font-size: $fs-reduct;
+        }
+    }
+    
+        // quarto div del main
+      
+    .partnerships{
+       h1{
+        font-size: perUnoeMezzo($fs-larger);
+       }
+        img{
+        width: 150px;
+        height: 50px;
+    }
+    }
+    
+    .sopra_footer{
+        h1{
+            font-size: perUnoeMezzo($fs-larger);
+        }
+        p{
+            font-size:$fs-reduct ;
+        }
+        img{
+            max-width:50px;
+            border-radius: 50%;
+        }
+    }
+    footer{
+        width:100%;
+        background: $bg-color;
+        color: $f-color;
+        font-size:perUnoeMezzo($fs-reduct)
+        ul{
+          list-style-type: none;
+        }
+        ul li{
+            font-size:$fs-reduct ;
+        }
+    }
+   
+
+}
+@media screen and (min-width:767px) {
+    
+
+    header{
+        width: 100%;
+        nav{
+        width: 100%;
+        display:flex ;
+        justify-content: space-between;
+        text-align:center;
+        align-items:center;
+        background:$bg-color;
+        padding:10px 10% 10px 5%;
+        p{
+            font-weight: $fw-bold;
+            color: $f-color;
+            font-size: 40px;
+            justify-content: flex-start;
+        }
+        p span{
+            
+            font-weight: normal;
+        }
+        ul{
+           
+            display: flex;
+            align-items:flex-end;
+            list-style-type: none;
+            align-items: center;
+        }
+        ul li{
+           padding-left: 4%;
+            color: red;
+            list-style-type: none;
+            font-size: $fs-larger;
+        }
+    
+        ul li#bianco{
+            color:$f-color;
+        }
+     a{
+        text-decoration: none;
+     }
+    }
+    }
+    //primo div del main
+    
+    .sotto-header{
+        padding-left: 10px;
+    
+        h1{
+            font-size:40px;
+        }
+        p{
+            font-size: $fs-larger;
+        }
+        button{
+            background-color:#5c1a05;
+            color: #5c1a05;
+            padding:2px;
+            border: none;
+            border-radius: 0.5rem;
+            font-size: $fs-larger;
+        }
+        button span{
+            color: $f-color;
+        }
+        }
+    
+    //secondo div del main
+        
+    div.img{
+        padding-top: 10px;
+            width: 100%;
+            height:300px;
+            img{
+                width: 100%;
+                height:100%;
+            }
+    
+        }
+    
+        //terzo div del main
+    .terzo{
+        i{
+            font-size: perUnoeMezzo($fs-reduct);
+        }
+        h1{
+            font-size: 40px;
+        }
+        p{
+            font-size: $fs-larger;
+        }
+    }
+    
+    
+        // quarto div del main
+      
+    .partnerships{
+       h1{
+        font-size: 40px;
+       }
+        img{
+        width: 150px;
+        height: 100px;
+    }
+    }
+    
+    .sopra_footer{
+        h1{
+            font-size: 40px;
+        }
+        p{
+            font-size:$fs-larger ;
+        }
+        img{
+            max-width:100px;
+            border-radius: 50%;
+        }
+    }
+
+    footer{
+
+        background: $bg-color;
+        width: 100%;
+        color: $f-color;
+        ul{
+          list-style-type: none;
+        }
+        #h6{
+            position: relative;
+            top:40px;
+        }
+        h6{
+            font-size: 30px;
+        }
+        ul li{
+            font-size:$fs-larger ;
+        }
+    }
+   
+
+}
+
+@media screen and (min-width:767px) {
+    
+
+    header{
+        width: 100%;
+        nav{
+        width: 100%;
+        display:flex ;
+        justify-content: space-between;
+        text-align:center;
+        align-items:center;
+        background:$bg-color;
+        padding:10px 10% 10px 5%;
+        p{
+            font-weight: $fw-bold;
+            color: $f-color;
+            font-size: 40px;
+            justify-content: flex-start;
+        }
+        p span{
+            
+            font-weight: normal;
+        }
+        ul{
+           
+            display: flex;
+            align-items:flex-end;
+            list-style-type: none;
+            align-items: center;
+        }
+        ul li{
+           padding-left: 4%;
+            color: red;
+            list-style-type: none;
+            font-size: $fs-larger;
+        }
+    
+        ul li#bianco{
+            color:$f-color;
+        }
+     a{
+        text-decoration: none;
+     }
+    }
+    }
+    //primo div del main
+    
+    .sotto-header{
+        padding-left: 10px;
+    
+        h1{
+            font-size:40px;
+        }
+        p{
+            font-size: $fs-larger;
+        }
+        button{
+            background-color:#5c1a05;
+            color: #5c1a05;
+            padding:2px;
+            border: none;
+            border-radius: 0.5rem;
+            font-size: $fs-larger;
+        }
+        button span{
+            color: $f-color;
+        }
+        }
+    
+    //secondo div del main
+        
+    div.img{
+        padding-top: 10px;
+            width: 100%;
+            height:400px;
+            img{
+                width:100%;
+                height:100%;
+            }
+    
+        }
+    
+        //terzo div del main
+    .terzo{
+        i{
+            font-size: perDue($fs-reduct);
+        }
+        h1{
+            font-size: 40px;
+        }
+        p{
+            font-size: $fs-larger;
+        }
+    }
+    
+        // quarto div del main
+      
+    .partnerships{
+       h1{
+        font-size: 40px;
+       }
+        img{
+        width: 150px;
+        height: 100px;
+    }
+    }
+    
+    .sopra_footer{
+        h1{
+            font-size: 40px;
+        }
+        p{
+            font-size:$fs-larger ;
+        }
+        img{
+            max-width:100px;
+            border-radius: 50%;
+        }
+    }
+
+    footer{
+
+        background: $bg-color;
+        width:100%;
+        color: $f-color;
+        font-size: $fs-larger;
+        ul{
+          list-style-type: none;
+        }
+        #h6{
+            position: relative;
+            top:40px;
+        }
+        h6{
+            font-size: 30px;
+        }
+        ul li{
+            font-size:$fs-larger ;
+        }
+    }
+   
+
+}
+@media screen and (min-width: 1200px) {
+
+    .terzo{
+        i{
+            i{
+                font-size: perDue($fs-larger);
+            }
+        }
+    }
+    
+}

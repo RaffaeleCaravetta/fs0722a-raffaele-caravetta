@@ -1,0 +1,22 @@
+@function perDue($fontSize){
+@return $fontSize*2
+}
+;
+
+@function perUnoeMezzo($fontSize){
+    @return $fontSize*1.5
+    }
+    ;
+
+    
+
+   @mixin textColor($svg,$svgValue){
+        background-color: $svg;
+        @if $svgValue >= 5%{
+          color: #fff
+        }@else{
+            color: #000
+        }
+    }
+
+
