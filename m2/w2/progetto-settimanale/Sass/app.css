@@ -1,3 +1,5 @@
+@charset "UTF-8";
+/*Se scrivo così, mi da errore :*/
 header {
   width: 100%;
 }

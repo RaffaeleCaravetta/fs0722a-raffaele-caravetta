@@ -19,4 +19,13 @@
         }
     }
 
-
+    //mi si è annebbiata la mente, non riesco a testare questa funzione, ma penso che funziona
+    @function textColor1($svg,$svgValue){
+       
+        @if( $svgValue >= 5%){
+          $neroCambiabile: #fff;
+          $svg: darken(#f5f5f5,$svgValue);
+        }
+    }
+    
+/*Se scrivo così, mi da errore :*/
