@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progetto settimanale</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+</head>
+<body class="bg-light container">
+    <div class="row" id="ciao">
+    <!--<div class="card col-auto m-2 text-center p-3" style="width: 18rem;">
+        <img  class="img bg-light rounded-circle" alt="img-male">
+        <div class="card-body">
+          <h5 class="card-title a"></h5>
+         
+          <a href="mailto:tua@email.com" class="text-warning aa"></a>
+        </div>
+      </div>
+      <div class="card col-auto m-2 text-center p-3" style="width: 18rem;">
+        <img  class="img1 bg-light rounded-circle" alt="img-female">
+        <div class="card-body">
+          <h5 class="card-title b"></h5>
+         
+       <a href="mailto:tua@email.com" class="text-warning bb"></a>
+        </div>
+      </div>-->
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+  fetch('users.json').then(function(response){
+    return response.json();
+}).then(function(json){
+    users=json;
+   
+
+/*
+ let img = document.querySelector(".img").setAttribute("src","male.png")
+   let nameSurname= document.querySelector(".a").textContent = users[0].firstName + " " + users[0].lastName
+   let a = document.querySelector(".aa").textContent = users[0].email
+
+   let img1 = document.querySelector(".img1").setAttribute("src","female.png")
+   let nameSurname1= document.querySelector(".b").textContent = users[1].firstName + " " + users[1].lastName
+   let a1 = document.querySelector(".bb").textContent = users[1].email
+*/
+}).catch(function(err){
+    console.log('Fetch problem: ' + err.message);
+})
+
+
+
+
+   // creo una costante e ci metto dentro tutti i nomi delle classi
+  //const classListDiv=["card" , "col-auto" , "m-2", "text-center", "p-3","img", "bg-light","rounded-circle","card-body","card-title","a", "card-title","b","text-warning", "bb"] 
+   
+   //creo il primo div del contenitore
+  let time = setTimeout( function() {
+  
+   let div = document.createElement("div")
+   div.classList.add("card" , "col-4" , "m-2", "text-center", "p-3")
+   div.style.maxWidth = "18rem"
+
+   //creo l'immagine del primo div
+   let img = document.createElement("img")
+   img.setAttribute("src","male.png")
+   img.classList.add("img", "bg-light","rounded-circle")
+   img.setAttribute("alt","img-male")
+   img.style.maxWidth="50px"
+   img.style.maxHeight="50px"
+   img.style.margin="auto"
+   
+
+   //creo il primo div del primo div del contenitore
+   let primoDiv= document.createElement("div")
+   div.classList.add("card-body")
+
+   //creo l'h5 del primo div
+   let h5 = document.createElement("h5")
+   h5.classList.add("card-title","a")
+   h5.textContent = users[0].firstName + " " + users[0].lastName
+
+   // creo il tag a del primo div
+   let a = document.createElement("a")
+   a.setAttribute("href","mailto:nowhere@gmail.com")
+   a.classList.add("text-warning","aa")
+   a.textContent = users[0].email
+   a.style.textDecoration="none"
+   
+   //appendo tutto
+   div.appendChild(img)
+   div.appendChild(primoDiv)
+   primoDiv.appendChild(h5)
+   primoDiv.appendChild(a)
+
+   //ripeto il procedimento per il secondo div
+   let div1 = document.createElement("div")
+   div1.classList.add("card" , "col-4" , "m-2", "text-center","p-3")
+   div1.style.maxWidth = "18rem"
+   
+   let img1 = document.createElement("img")
+   img1.setAttribute("src","female.png")
+   img1.classList.add("img", "bg-light","rounded-circle")
+   img1.setAttribute("alt","img-male")
+   img1.style.maxWidth="50px"
+   img1.style.maxHeight="50px"
+   img1.style.margin="auto"
+
+   let primoDiv1= document.createElement("div")
+   div1.classList.add("card-body")
+  
+   let h51 = document.createElement("h5")
+   h51.classList.add("card-title","a")
+   h51.textContent = users[1].firstName + " " + users[1].lastName
+   
+   let a1 = document.createElement("a")
+   a1.setAttribute("href","mailto:nowhere@gmail.com")
+   a1.classList.add("text-warning","bb")
+   a1.textContent = users[1].email
+   a.style.textDecoration="none"
+
+   div1.appendChild(img1)
+   div1.appendChild(primoDiv1)
+   primoDiv1.appendChild(h51)
+   primoDiv1.appendChild(a1)
+
+   //seleziono <div class="row"></div>
+   let row = document.getElementById("ciao")
+   row.appendChild(div)
+   row.appendChild(div1)
+
+
+  
+},2500)
+
+    
+
+
+
+
+    </script>
+</body>
+</html>
