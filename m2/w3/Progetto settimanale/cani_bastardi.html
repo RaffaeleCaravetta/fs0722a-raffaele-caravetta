@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cani bastardi</title>
+</head>
+<body>
+
+
+<div id="cuccia"></div>
+
+    <script>
+
+     async function prendiCani() {
+        let uau = ("https://dog.ceo/api/breeds/image/random")
+           try {  
+            let uai = await fetch(uau) 
+                return await uai.json();}
+           catch{
+                   document.write("C'è stato un errore, i cani stanno pascolando al posto delle pecore")
+                }
+     }
+
+
+let html = " "
+     let u = setInterval(async function appariCani() {
+            let aia = await prendiCani()
+            let content = `
+                              <div>
+                                <p>Questo è il cane che passa il convento.</p>
+                                </div>             
+                                   <img max-width=5rem src="${aia["message"]}">
+                                 <p><b>Se vuoi un altro cane devi aspettare 5 secondi</b></p>
+             
+            `
+            html += content;
+let cuccia = document.querySelector("#cuccia").innerHTML = html
+     } ,5000)
+
+
+   
+
+    </script>
+</body>
+</html>

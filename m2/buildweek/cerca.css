@@ -1,0 +1,81 @@
+body {
+  background-color: black;
+}
+body main input {
+  width: 90%;
+  margin-left: 5%;
+}
+body h5 {
+  font-size: 0.8rem;
+}
+body #red {
+  background-color: red;
+  border-radius: 4%;
+  width: 45%;
+  margin-right: 3%;
+  margin-left: 3%;
+}
+body .blu {
+  border-radius: 4%;
+  background-color: rgb(16, 16, 49);
+  width: 45%;
+}
+body .violaceo {
+  border-radius: 4%;
+  background-color: rgb(77, 58, 85);
+  width: 45%;
+  margin-right: 3%;
+  margin-left: 3%;
+}
+body .verde {
+  border-radius: 4%;
+  background-color: green;
+  width: 45%;
+}
+body .arancio {
+  border-radius: 4%;
+  background-color: rgb(177, 97, 5);
+  width: 45%;
+  margin-right: 3%;
+  margin-left: 3%;
+}
+body .arancione {
+  border-radius: 4%;
+  background-color: orangered;
+  width: 45%;
+}
+body .pink {
+  border-radius: 4%;
+  background-color: rgb(196, 17, 121);
+  width: 45%;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+body .viola {
+  border-radius: 4%;
+  background-color: violet;
+  width: 45%;
+}
+body .viola {
+  border-radius: 4%;
+  background-color: violet;
+  width: 45%;
+  margin-right: 3%;
+  margin-left: 3%;
+}
+body .red {
+  background-color: red;
+  border-radius: 4%;
+  width: 45%;
+}
+body .col-6 {
+  width: 150px;
+  height: 85px;
+}
+body a {
+  text-decoration: none;
+  color: grey;
+}
+body a:hover {
+  color: gray;
+}/*# sourceMappingURL=cerca.css.map */

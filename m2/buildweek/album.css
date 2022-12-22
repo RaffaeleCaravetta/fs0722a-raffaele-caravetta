@@ -1,0 +1,10 @@
+body {
+  background-color: black;
+}
+body a {
+  text-decoration: none;
+  color: white;
+}
+body a:hover {
+  color: white;
+}/*# sourceMappingURL=album.css.map */

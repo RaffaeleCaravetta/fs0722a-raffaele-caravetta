@@ -1,0 +1,53 @@
+body {
+  background-color: black;
+  font-size: 0.6rem;
+}
+body header h5 {
+  font-weight: bold;
+}
+body main .container .container {
+  font-size: 0.6rem;
+}
+body main .container .container .imgRandom {
+  width: 1000%;
+}
+body main .container .img {
+  width: 100%;
+}
+body main .p {
+  font-size: 0.8rem;
+}
+body main .bg-secondary {
+  --bs-bg-opacity: 0.4;
+  max-width: 90%;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+a:hover {
+  color: grey;
+}
+
+@media screen and (min-width: 400px) {
+  body main .container .container .imgRandom {
+    width: 190%;
+  }
+}
+@media screen and (min-width: 400px) and (min-width: 700px) {
+  body {
+    font-size: 1rem;
+  }
+  body header h5 {
+    font-weight: bold;
+    font-size: 3rem;
+  }
+  body main .container .container {
+    font-size: 1rem;
+  }
+  body main .container .container .imgRandom {
+    width: 150%;
+  }
+}/*# sourceMappingURL=index.css.map */

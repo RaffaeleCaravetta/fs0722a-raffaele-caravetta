@@ -1,0 +1,85 @@
+body{
+    background-color: black;
+main{
+    input{
+        width: 90%;
+        margin-left:5%
+    }
+ 
+}
+h5{
+   font-size: 0.8rem;
+}
+ #red{
+    background-color: red;
+    border-radius: 4%;
+    width: 45%;
+    margin-right: 3%;
+    margin-left:3%;
+ } 
+ .blu{
+    border-radius: 4%;
+    background-color: rgb(16, 16, 49);
+    width: 45%;
+    
+ }
+ .violaceo{
+    border-radius: 4%;
+    background-color: rgb(77, 58, 85);
+    width: 45%;
+    margin-right: 3%;
+    margin-left:3%;
+ }
+ .verde{
+    border-radius: 4%;
+    background-color:green;
+    width: 45%;
+ }
+ .arancio{
+    border-radius: 4%;
+    background-color:rgb(177, 97, 5);
+    width: 45%;
+    margin-right: 3%;
+    margin-left:3%;
+ }
+ .arancione{
+    border-radius: 4%;
+    background-color:orangered;
+    width: 45%;
+ }
+ .pink{
+    border-radius: 4%;
+    background-color:rgb(196, 17, 121);
+    width: 45%;
+    margin-right: 2%;
+    margin-left: 2%;
+ }
+ .viola{
+    border-radius: 4%;
+    background-color:violet;
+    width: 45%;
+ }
+ .viola{
+    border-radius: 4%;
+    background-color:violet;
+    width: 45%;
+    margin-right: 3%;
+    margin-left:3%;
+ }
+ .red{
+   background-color: red;
+   border-radius: 4%;
+   width: 45%;
+ }
+ .col-6{
+   width:150px;
+   height:85px
+ }
+ a{
+   text-decoration: none;
+   color:grey
+ }
+ a:hover{
+   color:gray
+ }
+}
