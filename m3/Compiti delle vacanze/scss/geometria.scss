@@ -1,0 +1,40 @@
+@import 'variable';
+
+   
+    #triangolo{
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 100px solid $colore;
+        margin: 5px;
+    }
+    #rettangolo{
+        width: 200px;
+        height:  100px;
+        background-color: $colore;
+        margin: 5px;
+    }
+    #quadrato{
+        width: 100px;
+        height: 100px; 
+        background-color: $colore;
+        margin: 5px;
+    }
+    #trapezio{
+        height: 0;
+        width: 200px;
+        border-bottom: 100px solid $colore;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-top: 80px;
+        margin:5px;
+    }
+    #cerchio{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: $colore;
+        margin: 5px;
+    }
+
