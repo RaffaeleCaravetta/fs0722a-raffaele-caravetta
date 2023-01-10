@@ -95,7 +95,7 @@ var figure_geometriche = [
         raggio: raggio_cerchio === null || raggio_cerchio === void 0 ? void 0 : raggio_cerchio,
         area: function () {
             var p4 = document.querySelector("#p4");
-            p4.textContent = 3.14 * (this.raggio.value *= 2);
+            p4.textContent = Math.floor( 3.14 * (this.raggio.value *= 2));
             this.raggio.value = ""
         }
     }
@@ -127,7 +127,7 @@ function calcolaArea(elemento) {
 setInterval(
 function figuracce() {
     for (let e of array){
-        let nmb = Math.floor(Math.random() * 1800)
+        let nmb = Math.floor(Math.random() * 1700)
         let nmb1 = Math.floor(Math.random() * 250)
         e.style.transform = `translate(${nmb}px,${nmb1}px)`
         
