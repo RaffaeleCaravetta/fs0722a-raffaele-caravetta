@@ -11,6 +11,8 @@ import { EvidenziaDirective } from './directives/evidenzia.directive';
 import { MaiuscoloPipe } from './pipes/maiuscolo.pipe';
 import { PostDetailComponent } from './components/post-detail/post-detail.component';
 import { UsersComponent } from './components/users/users.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { TodosModule } from './todos/todos.module';
 
 
 @NgModule({
@@ -24,11 +26,13 @@ import { UsersComponent } from './components/users/users.component';
     MaiuscoloPipe,
     PostDetailComponent,
     UsersComponent,
+    NavbarComponent,
 
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    TodosModule
   ],
   providers: [],
   bootstrap: [AppComponent]
